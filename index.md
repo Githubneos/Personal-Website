@@ -69,115 +69,103 @@ image: /images/mario_animation.png
 
 <!-- Inline Styles -->
 <style>
-/* === Customizable Theme Color === */
-:root {
-  --primary-color: #007BFF; /* <== CHANGE THIS TO WHATEVER COLOR YOU WANT */
-}
+  /* Base Reset and Font */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
 
-/* === General Layout === */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background: #f9f9f9;
-  color: #333;
-}
+  /* Body Background and Text */
+  body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 2rem;
+  }
 
-.main-content {
-  padding: 40px;
-}
+  /* Header Section */
+  header {
+    text-align: center;
+    margin-bottom: 3rem;
+    animation: fadeIn 1.2s ease-in-out;
+  }
 
-.page-title h1 {
-  color: var(--primary-color);
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
 
-.page-title p {
-  font-size: 1.2rem;
-  color: #555;
-}
+  p.tagline {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-top: 0.5rem;
+  }
 
-/* === About Section === */
-.about-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
-}
+  /* Main Container */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
 
-.profile {
-  flex: 1;
-  min-width: 250px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  text-align: center;
-}
+  .container:hover {
+    transform: scale(1.01);
+  }
 
-.qr-code img {
-  width: 150px;
-  height: auto;
-  margin: 20px 0;
-}
+  /* Section Titles */
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #90cdf4;
+  }
 
-.qr-desc {
-  font-size: 0.9rem;
-  color: #777;
-}
+  /* Lists and Links */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 
-/* === Link Cards === */
-.links {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
+  li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
 
-.link-card {
-  display: flex;
-  align-items: center;
-  background: white;
-  border-left: 5px solid var(--primary-color);
-  border-radius: 8px;
-  padding: 15px;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
+  li strong {
+    color: #f7fafc;
+  }
 
-.link-card:hover {
-  transform: translateY(-3px);
-}
+  a {
+    color: #63b3ed;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
 
-.link-card i {
-  font-size: 1.5rem;
-  margin-right: 15px;
-  color: var(--primary-color);
-}
+  a:hover {
+    color: #bee3f8;
+    text-decoration: underline;
+  }
 
-.link-card .content h4 {
-  margin: 0;
-  font-size: 1.1rem;
-  color: #222;
-}
-
-.link-card .content p {
-  margin: 0;
-  color: #666;
-  font-size: 0.9rem;
-}
-
-/* === Footer === */
-.footer {
-  text-align: center;
-  padding: 20px 0;
-  background: #fff;
-  color: #aaa;
-  margin-top: 40px;
-}
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 </style>
+
 
 <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
   <h2 style="font-size: 1.8rem; margin-bottom: 0.75rem;">About Me</h2>
