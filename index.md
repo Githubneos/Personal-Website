@@ -25,21 +25,21 @@ image: /images/mario_animation.png
 
     <!-- Links Section -->
     <div class="links">
-      <a class="link-card email" href="mailto:hithinp@gmail.com">
+      <a class="link-card email" href="mailto:karumudikeerthan@gmail.com">
         <i class="fas fa-envelope"></i>
         <div class="content">
           <h4>Email</h4>
           <p>hithinp@gmail.com</p>
         </div>
       </a>
-      <a class="link-card github" href="https://github.com/Hithinp">
+      <a class="link-card github" href="https://github.com/Githubneos">
         <i class="fab fa-github"></i>
         <div class="content">
           <h4>GitHub</h4>
           <p>github.com/hithin</p>
         </div>
       </a>
-      <a class="link-card linkedin" href="https://www.linkedin.com/in/hithinp">
+      <a class="link-card linkedin" href="https://www.linkedin.com/in/keerthan-karumudi-016699368/">
         <i class="fab fa-linkedin"></i>
         <div class="content">
           <h4>LinkedIn</h4>
@@ -180,21 +180,16 @@ body {
 </style>
 
 <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <h2 style="font-size: 1.8rem; margin-bottom: 0.75rem;">🔧 About Me</h2>
-  <p style="font-size: 1rem; color: #555; line-height: 1.6;">
-    I specialize in AI, robotics, and software development—blending technical precision with creative problem-solving across real-world engineering projects.
-  </p>
-  <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
-    <li style="margin-bottom: 0.5rem;">🤖 <strong>AI & Automation:</strong> WPILib autonomous code, Limelight vision tracking, task management tools.</li>
-    <li style="margin-bottom: 0.5rem;">🛠️ <strong>Hardware Design:</strong> Built a DIY CNC mill from scratch using CAD and custom fabrication.</li>
-    <li style="margin-bottom: 0.5rem;">💻 <strong>Full-Stack Skills:</strong> Created web-based tools to support business operations and logistics.</li>
-    <li style="margin-bottom: 0.5rem;">📐 <strong>CAD & Systems:</strong> Deep knowledge of modeling, optimization, and mechanical systems.</li>
-    <li style="margin-bottom: 0.5rem;">🚀 <strong>Team-Oriented:</strong> FRC design experience with a focus on collaboration and iteration.</li>
+  <h2 style="font-size: 1.8rem; margin-bottom: 0.75rem;">About Me</h2>
+  <p style="font-size: 1rem; color: #ccc; line-height: 1.6;">
+  I focus on building practical, impactful solutions at the intersection of software, science, and education.
+  </p><ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+  <li style="margin-bottom: 0.5rem;"><strong>Software Development:</strong> Built full-stack apps and backend systems at PilotCity and Open Coding Society.</li>
+  <li style="margin-bottom: 0.5rem;"><strong>Physics Research:</strong> Explored magnetized plasma interactions at UC San Diego to support fusion research.</li>
+  <li style="margin-bottom: 0.5rem;"><strong>Technical Design:</strong> Led Blender and Onshape projects as 3D Animation Club VP, teaching students advanced modeling.</li>
+  <li style="margin-bottom: 0.5rem;"><strong>STEM Education:</strong> Created aerospace-themed outreach programs for K–12 students through Project Flight.</li>
+  <li style="margin-bottom: 0.5rem;"><strong>Team Leadership:</strong> Guided interdisciplinary teams across research, development, and outreach efforts.</li>
+  <li style="margin-bottom: 0.5rem;"><strong>Mission-Driven:</strong> Dedicated to making engineering more accessible and inspiring curiosity through real-world projects.</li>
   </ul>
 </div>
 
-
-<!-- Footer -->
-<div class="footer">
-  <p>&copy; 2025 Hithin Pulamarasetty. All rights reserved.</p>
-</div>
