@@ -69,7 +69,7 @@ image: /images/mario_animation.png
 
 <!-- Inline Styles -->
 <style>
-  /* Base Reset and Font */
+  /* Fonts & Reset */
   * {
     margin: 0;
     padding: 0;
@@ -77,57 +77,76 @@ image: /images/mario_animation.png
     font-family: 'Inter', sans-serif;
   }
 
-  /* Body Background and Text */
   body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    color: #f0f0f0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e0e0f8;
     line-height: 1.6;
     padding: 2rem;
+    overflow-x: hidden;
+    animation: fadeInBody 1.2s ease-out;
   }
 
-  /* Header Section */
+  /* Header Styling */
   header {
     text-align: center;
     margin-bottom: 3rem;
-    animation: fadeIn 1.2s ease-in-out;
+    animation: floatIn 1s ease forwards;
   }
 
   h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #00ffe0, #28ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
   }
 
   p.tagline {
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #9ae3ff;
     margin-top: 0.5rem;
+    animation: pulseGlow 2s infinite ease-in-out;
   }
 
-  /* Main Container */
+  /* Container */
   .container {
-    max-width: 900px;
+    max-width: 960px;
     margin: auto;
     padding: 2rem;
-    border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2), 0 0 40px rgba(0, 128, 255, 0.1);
+    backdrop-filter: blur(8px);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
   }
 
   .container:hover {
     transform: scale(1.01);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 128, 255, 0.2);
   }
 
-  /* Section Titles */
+  /* Section Headers */
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #90cdf4;
+    color: #77e2ff;
+    position: relative;
   }
 
-  /* Lists and Links */
+  h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #00ffe0, #007acc);
+    margin-top: 6px;
+    border-radius: 3px;
+    animation: slideInBar 1s ease-out forwards;
+  }
+
+  /* List Items */
   ul {
     list-style: none;
     padding-left: 0;
@@ -135,35 +154,27 @@ image: /images/mario_animation.png
 
   li {
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.05rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.75rem 1rem;
+    border-left: 4px solid #00ffe0;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  li:hover {
+    background: rgba(0, 255, 255, 0.05);
+    transform: translateX(6px);
   }
 
   li strong {
-    color: #f7fafc;
+    color: #ffffff;
   }
 
+  /* Links */
   a {
-    color: #63b3ed;
+    color: #38e8ff;
     text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  a:hover {
-    color: #bee3f8;
-    text-decoration: underline;
-  }
-
-  /* Animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 </style>
 
 
