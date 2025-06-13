@@ -15,7 +15,7 @@ image: /images/mario_animation.png
     <!-- Profile and Links Side-by-Side -->
     <div class="profile-links-wrapper">
       <!-- Profile Picture -->
-      <img src="images/pfp.JPEG" alt="Profile Picture" width="200" height="200">
+      <img src="images/pfp.JPEG" alt="Profile Picture" width="400" height="400">
 <!-- Links Section -->
       <div class="links">
         <a class="link-card email" href="mailto:karumudikeerthan@gmail.com">
