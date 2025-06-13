@@ -16,7 +16,7 @@ image: /images/mario_animation.png
     <div class="profile-links-wrapper">
       <!-- Profile Picture -->
       <div class="profile-picture">
-        <img src="/images/profile.jpg" alt="Profile Picture">
+        <img src="/images/pfp.JPEG" alt="Profile Picture">
       </div>
 <!-- Links Section -->
       <div class="links">
@@ -41,7 +41,7 @@ image: /images/mario_animation.png
             <p>linkedin.com/in/Keerthank</p>
           </div>
         </a>
-        <a class="link-card resume" href="https://www.canva.com/design/DAGp7N7WX1o/ZzquNIIBr2z0hGxQblvh6g/edit?utm_content=DAGp7N7WX1o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+        <a class="link-card resume" href="https://www.canva.com/design/DAGqMqKJxKQ/uIO9Cu6XeHyBzHG-_7Ageg/edit">
           <i class="fas fa-file-alt"></i>
           <div class="content">
             <h4>Resume</h4>
