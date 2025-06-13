@@ -1,6 +1,5 @@
 ---
 layout: base
-title: Keerthan Karumudi
 hide: true
 image: /images/mario_animation.png
 ---
